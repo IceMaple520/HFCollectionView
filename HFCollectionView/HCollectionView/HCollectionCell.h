@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HModel.h"
+
 
 @interface HCollectionCell : UICollectionViewCell
+
+@property (nonatomic,strong) HModel *model;
+
 
 @end

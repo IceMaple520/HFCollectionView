@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface HModel : NSObject
-
+@property (copy,nonatomic) NSString *imageName;
+@property (copy,nonatomic) NSString *title;
 @end
